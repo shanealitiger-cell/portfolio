@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.herosec{
+    background: url("image/back6.jpeg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.herosec img{
+    width: 120px;
+    border-radius: 120px;
+    border:2px solid #E6C200;
+}
+.herosec h1{
+    color: #E6C200;
+    font-size: 2.5rem;    
+}
+.herosec p{
+    width: 600px;
+    color: white;
+}
+.herosec button{
+    padding: 15px 70px;
+    border-radius: 12px;
+    border: 0px;
+    background-color: #E6C200;
+    color: #279754;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.herosec button:hover{
+    color:#E6C200;
+    background-color: #279754;
+    transform: scale(1.1);
+}
+.logo{
+    width: 55px;
+}
+.logo img{
+    width: 100%;
+    border-radius: 55px;
+    border: 2px solid #E6C200;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px 0px;
+    background-color: #0E2F1B;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 1px 1px 7px;
+}
+.links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color:#E6C200;
+    margin: 0px 100px;
+    font-weight: bold;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+.links a:hover{
+    background-color: #4b4e4e;
+    border-radius:12px;
+    padding: 2px 5px;
+}
+.links i{
+    color:#279754;
+    padding: 0px 6px 0px 1px;
+    font-size: 18px;
+}
+#face{
+    color: blue;
+    font-size: 25px;
+    padding-right: 5px;
+}
+#insta{
+    color: #E1306C;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.social{
+    padding-top: 17px;
+}
+.chat{
+    position: fixed;
+    right: 70px;
+    bottom: 50px;
+}
+.chat button{
+    background-color: #279754;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.chat button:hover{
+    box-shadow: 0px 0px 4px 4px darkgray;
+}
+.chat button i{
+    font-size: 25px;
+    padding: 0px 4px;
+    color: black;
+}
+.chat button:hover::after{
+    content: " Chat With Us";
+    transition: ease-in-out 3s;
+}
+.aboutsec{
+    margin-top: 0px;
+    padding: 20px 0px;
+}
+.abo_heading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0E2F1B;
+}
+.abo_cont{
+    display: flex;
+    justify-content: center;
+
+}
+.abo_img img{
+    width: 500px;
+    height: 335px;
+}
+.abo_content{
+    width: 40%;
+    margin:0px 25px;
+}
+.abo_content h2{
+    font-size: 30   px;
+    margin-bottom: 25px;
+    padding: 2px 4px;
+    color: #E6C200;
+}
+.abo_content p{
+    padding: 2px 4px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: rgb(90, 121, 28);
+}
+.abo_content li{
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: rgb(90, 121, 28);
+}
+.abo_content button{
+    font-size: 16px;
+    padding:6px 15px;
+    border-radius: 12px;
+    border: 0;
+    background-color: #0E2F1B;
+    color: #E6C200;
+    font-weight: bold;
+}
+.abo_content button:hover{
+    box-shadow: 0px 0px 4px 4px darkgrey;
+}
+.abo_content button i{
+    color:#279754;
+    padding: 0px 6px 0px 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.gallery img{
+    width: 800px;
+    height: 300px;
+}
+.info{
+    padding: 10px 0px;
+}
+.info_heading h2{   
+    font-size: 37px;
+    text-align: center;
+    padding: 2px 4px;
+    color: #0E2F1B;
+}
+.info_heading h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 4px;
+    color: #E6C200;
+    margin-top: 15px;
+}
+.rights{
+    background-color: #0E2F1B;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.rights p{
+    color: #E6C200;
+}
+.cards{
+    background: linear-gradient(to top, #0a110b, #004e1f);
+}
+
+.card_heading h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 4px;
+    color: #E6C200;
+    padding: 15px;
+}
+.testimals{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 0px;
+}
+.test{
+    text-align: center;
+    box-shadow: 1px 1px 8px limegreen;
+    border-radius: 12px;
+    height: 240px;
+    width: 400px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.test:hover{
+    transform: translateY(-25px) scale(1.05);
+}
+.test_text{
+    color:white;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.test_rating{
+    font-size: 25px;
+    color: #E6C200;
+    padding-top: 5px;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    color: limegreen;
+    padding-top: 20px;
+}
+
+.des{
+    font-size: 16px;
+    color: limegreen;
+    padding-bottom: 5px;
+}
+
+.fotlogo img{
+    width: 80px;
+    border-radius: 100px;
+    border: 3px solid #E6C200;
+}
+.fotlogo p{
+    max-width: 300px;
+}
+.fotlogo i{
+    padding: 7px 10px;
+}
+#facebook{
+    color: blue;
+    font-size: 35px;
+}
+#instag{
+    color: #E1306C;
+    font-size: 35px;
+}
+#whats{
+    color:#279754;
+    font-size: 35px;
+}
+#you{
+    color: red;
+    font-size: 35px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    background: linear-gradient(to bottom, #0a110b, #004e1f);
+    color: limegreen;
+    padding: 15px;
+    text-align: center;
+    align-content: center;
+}
+.footer h4{
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: #E6C200;
+}
+.footer li{
+    list-style: none;
+    line-height: 25px;
+}
+.resources a{
+    text-decoration: none;
+    color: limegreen;
+}
+.sub{
+    padding: 5px 109px;
+    margin-top: 5px;
+    background-color: limegreen;
+    color: #E6C200;
+    border-radius: 12px;
+    /* border: none; */
+}
+.email{
+    padding: 5px 45px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.faqs h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0E2F1B;
+}
+.accordion{
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    width: 80%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+.active {
+  background-color: #004e1f;
+  color: white;
+  outline: #0a110b;
+}
+.panel{
+   padding: 18px;
+   background-color: #004e1f;
+   width: 80%;
+   color: white;
+   font-size: 18px;
+   display: none;
+   overflow: hidden;
+}
+@media(max-width: 1245px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    .herosec p{
+        max-width: 300px;
+    }   
+}
+
+@media(max-width: 1130px){
+    .abo_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .abo_img img{
+        width:320px;
+    }
+    .abo_content{
+        width: 320px;
+    }
+    .abo_content p{
+        width: 95%;
+    }
+}
+@media(max-width: 735px){
+    .chat button{
+        padding: 3px 6px;
+    }
+
+    .chat{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    }
+}
+@media(max-width: 420px){
+    .test{
+        width: 300px;
+        height: 300px;
+        padding: 0px 10px;
+    }
+    .testimals{
+        gap: 50px;
+    }
+}
+ @media(max-width: 830px){
+    .gallery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width:24%;
+    }
+    .gallery img:hover{
+        width: 280px;
+        transform: translateY(-30px) scale(1.1);
+    }
+} 
+@media(max-width: 800px){
+    .rights{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .rights p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
